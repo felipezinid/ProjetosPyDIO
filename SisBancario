@@ -1,0 +1,14 @@
+print(" [1] Saque \n [2] Depositar \n [3] Visualizar extrato\nDigite a operação que você deseja realizar:")
+x = int(input())
+
+
+if x == 1:
+    print("Saque")
+
+elif x == 2:
+    print("Seu saldo é R$ 1.000.000")
+
+elif x == 3:
+    print("Qual o valor você deseja depositar?")
+else:
+    print("Opção invalida")
